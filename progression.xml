@@ -17,7 +17,7 @@
 		<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</player_skill>
@@ -63,7 +63,7 @@
 		<action_skill name="Blunt Weapons" icon="club" description_key="bluntWeaponsDesc" title_key="bluntWeapons">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -71,7 +71,7 @@
 		<action_skill name="Blade Weapons" icon="knife" description_key="bladeWeaponsDesc" title_key="bladeWeapons">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -79,7 +79,7 @@
 		<action_skill name="Mining Tools" icon="mining" description_key="miningToolsDesc" title_key="miningTools">
 			<effect name="BlockDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -87,7 +87,7 @@
 		<action_skill name="Construction Tools" icon="resource" description_key="constructionToolsDesc" title_key="constructionTools">
 			<effect name="BlockDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -95,7 +95,7 @@
 		<action_skill name="Pistols" icon="pistol" description_key="pistolsDesc" title_key="pistols">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -103,7 +103,7 @@
 		<action_skill name="Shotguns" icon="shotgun" description_key="shotgunsDesc" title_key="shotguns">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -111,7 +111,7 @@
 		<action_skill name="Rifles" icon="rifle" description_key="riflesDesc" title_key="rifles">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>
@@ -119,7 +119,7 @@
 		<action_skill name="Archery" icon="archery" description_key="archeryDesc" title_key="archery">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,75" value="1,1.25"/>
-				<multiply skill_level="76,99" value="1.5"/>
+				<multiply skill_level="76,99" value="1.26, 1.5"/>
 				<multiply skill_level="100" value="2"/>
 			</effect>
 		</action_skill>

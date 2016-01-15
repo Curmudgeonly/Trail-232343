@@ -492,7 +492,7 @@
 	</lootgroup>	
 	
 	<lootgroup name="herbalRecipes" count="1">
-		<item name="herbalAntibioticsRecipe"/>	
+		<item name="herbalAntibioticsRecipe"/>
 	</lootgroup>	
 	
 	<lootgroup name="gasPumps" >
@@ -500,7 +500,8 @@
 	</lootgroup>	
 	
 	<lootgroup name="commonBooks" count="1">
-	    <item name="book" prob="20"/>	
+	    <item name="book" prob="20"/>
+		<item name="herbalAntibioticsRecipe"/>
 		<item name="crossbowSchematic"/>			
 		<item name="hammerSchematic"/>	
 		<item name="huntingKnifeBook"/>
@@ -660,7 +661,7 @@
 	    <item name="blackDenimPants"/> 
         <item name="redDenimPants"/> 
         <item name="brownDenimPants"/>  
-		<item name="cowboyHat"/>xxx add color variants
+		<item name="cowboyHat"/>
         <item name="ballCap"/>
         <item name="miningHelmet"/> 
         <item name="denimPants"/> 
@@ -1302,7 +1303,7 @@
     
 	<!-- mountain man loot  -->
     
-    <lootcontainer id="63"  count="0" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
+    <lootcontainer id="63"  count="0,1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> 
 		<item group="herbalRecipes" count="1"/>	
     </lootcontainer>  
     
@@ -1322,7 +1323,7 @@
 		<item group="warmClothes" prob="0.7" />		        	
     </lootcontainer>
 
-	<lootcontainer id="67"  count="0,2" size="8,4" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet">
+	<lootcontainer id="67"  count="0,2" size="2,2" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet">
 		<item group="toiletLoot" count="1"/>	
     </lootcontainer>   	
 	

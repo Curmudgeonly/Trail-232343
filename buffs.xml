@@ -213,7 +213,7 @@
 	
 	<buff id="steroids" duration="2400t" actions="addimmunity(sickness)" name_key="steroids" description_key="steroidsDesc" tooltip_key="steroidsTooltip" icon="ui_game_symbol_pills"/>
 	
-	<buff id="cured" duration="2400t" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip" actions="increment(@wellness, 0.125, 100, 0, 0)" icon="ui_game_symbol_pills"/>
+	<buff id="cured" stack="reset" duration="2400t" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip" actions="increment(@wellness, 0.125, 100, 0, 0)" icon="ui_game_symbol_pills"/>
 	
 	<buff id="smelly" duration="30" name_key="smelly" smell="largeSmell" description_key="smellyDesc" tooltip_key="smellyTooltip" icon="ui_game_symbol_dysentery"/>
 
@@ -235,15 +235,15 @@
 	
 	<buff id="infection4" name_key="infection4" actions="kill" description_key="infection4Desc" tooltip_key="infection4Tooltip" icon="ui_game_symbol_infection"/>
 	
-	<buff id="firstAid" duration="30" name_key="firstAid" type="healthup" description_key="firstAidDesc" tooltip_key="firstAidTooltip" icon="ui_game_symbol_medical">
+	<buff id="firstAid" stack="reset" duration="30" name_key="firstAid" type="healthup" description_key="firstAidDesc" tooltip_key="firstAidTooltip" icon="ui_game_symbol_medical">
 		<modify id="1" stat="health" amount="1" rate="1"/>
 	</buff>	
 	
-	<buff id="firstAidLarge" duration="10" name_key="firstAidLarge" type="healthup" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" icon="ui_game_symbol_medical">
+	<buff id="firstAidLarge" stack="reset" duration="10" name_key="firstAidLarge" type="healthup" description_key="firstAidLargeDesc" tooltip_key="firstAidLargeTooltip" icon="ui_game_symbol_medical">
 		<modify id="1" stat="health" amount="5" rate="1"/>
 	</buff>		
 	
-	<buff id="painkillerBuff" duration="60" name_key="painKillers" type="healthup" description_key="painKillersDesc" tooltip_key="painKillersTooltip" icon="ui_game_symbol_pills">
+	<buff id="painkillerBuff" stack="reset" duration="60" name_key="painKillers" type="healthup" description_key="painKillersDesc" tooltip_key="painKillersTooltip" icon="ui_game_symbol_pills">
 		<modify id="1" stat="health" amount="0.5" rate="1"/>
 	</buff>	
 	

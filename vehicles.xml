@@ -80,6 +80,7 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
+			<property name="part_damage_reduction" value="0.5"/>
 			<property name="parent_part" value="chassis"/>
 		</property>
 		

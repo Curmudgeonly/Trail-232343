@@ -235,7 +235,7 @@
 		</grid>
 	</window>
 	
-	<window name="craftingInfoPanel" controller="CraftingInfoWindow" style="crafting.info.window" anchor="CenterTop" panel="Center">
+	<window name="craftingInfoPanel" width="603" height="424" controller="CraftingInfoWindow" style="crafting.info.window" anchor="CenterTop" panel="Center">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{ItemGroupIcon}"/>
 			<label depth="2" name="windowName" pos="39,-10" width="500" height="28" text="{ItemName}" font_size="26" />
@@ -295,7 +295,7 @@
 		</panel>
 	</window>
 	
-	<window name="emptyInfoPanel" width="603" height="400" anchor="CenterTop" panel="Center" controller="InfoWindow">
+	<window name="emptyInfoPanel" width="603" height="424" anchor="CenterTop" panel="Center" controller="InfoWindow">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_search"/>
 			<label depth="2" name="windowName" pos="39,-10" width="172" height="28" text="EXAMINE" font_size="26" />
@@ -308,13 +308,13 @@
 		</panel>
 	</window>
 	
-	<window name="itemInfoPanel" width="603" height="400" controller="ItemInfoWindow" anchor="CenterTop" panel="Center">
+	<window name="itemInfoPanel" width="603" height="424" controller="ItemInfoWindow" anchor="CenterTop" panel="Center">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{ItemGroupIcon}"/>
 			<label depth="2" name="windowName" pos="39,-10" width="500" height="28" text="{ItemName}" font_size="26" />
 		</panel>
 		
-		<panel name="contentCraftingInfo" height="381" depth="1" pos="0,-43" backgroundcolor="[black]" bordercolor="[black]">	
+		<panel name="contentCraftingInfo" height="384" depth="1" pos="0,-43" backgroundcolor="[black]" bordercolor="[black]">	
 			<sprite depth="5" pos="0,-3" name="backgroundMain" sprite="menu_empty3px" width="603" height="378" color="[black]" type="sliced" fillcenter="false" />
 			<rect depth="1" pos="3,-3" name="preview" width="147" height="147">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="153" height="150" color="[black]" type="sliced" fillcenter="false" />	

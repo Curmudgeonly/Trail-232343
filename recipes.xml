@@ -377,11 +377,17 @@
         <ingredient name="wood" count="5"/>
         <ingredient name="yuccaFibers" count="1"/>
     </recipe>
-
+	
+	<recipe name="cobblestoneWedge" count="1" scrapable="False" >
+        <ingredient name="cobblestones" count="4"/>
+    </recipe>
+	
+	<!--
     <recipe name="cobblestoneRampFrame" count="1" scrapable="False" >
         <ingredient name="wood" count="5"/>
         <ingredient name="yuccaFibers" count="1"/>
     </recipe>
+	-->
 
     <recipe name="cobblestones" count="1" scrapable="False" >
         <ingredient name="clayLump" count="1"/>
@@ -1184,7 +1190,7 @@
         <ingredient name="concrete" count="4"/>
     </recipe>
 
-    <recipe name="stairsPavers" count="1" craft_area="forge" material_based="true" scrapable="False" >
+    <recipe name="stairsPavers" count="1" scrapable="False" >
         <ingredient name="brickPaver" count="1"/>
     </recipe>
 
